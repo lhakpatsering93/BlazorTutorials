@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.HttpClient" Version="3.2.0-preview3.20168.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EmployeeManagement.Models\EmployeeManagement.Models.csproj" />
   </ItemGroup>
 
